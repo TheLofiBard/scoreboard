@@ -1,5 +1,7 @@
 body {
     margin: 0;
+    background-image: url("/scrimba/scoreboard/team-project/images/football_field_background.jpg");
+    background-size: cover;
 }
 
 .container {
@@ -7,9 +9,10 @@ body {
     justify-content: space-around;
     background-color: goldenrod;
     max-width: 500px;
-    margin: 10px auto;
+    margin: 300px auto;
     border-style: solid;
     border-radius: 10px;
+    font-family: Kanit, sans-serif;
 }
 
 h3 {
@@ -25,6 +28,11 @@ h3 {
     font-size: 2.5rem;
     border-style: solid;
     border-radius: 5px;
+    font-family: Orbitron;
+    background-color: black;
+    color: purple;
+    margin: 1rem;
+    padding: 1rem;
 }
 
 .btns {
@@ -39,6 +47,7 @@ button {
     font-size: 1.5rem;
     cursor: pointer;
     border-radius: 5px;
+    font-family: Orbitron, sans-serif;
 }
 
 button:hover {
