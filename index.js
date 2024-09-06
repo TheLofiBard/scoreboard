@@ -19,3 +19,13 @@ function addGuest(event) {
     guest += isNumber;
     scoreG.textContent = guest;
 }
+
+function clearHome() {
+    home = 0;
+    scoreH.textContent = home;
+}
+
+function clearGuest() {
+    guest = 0;
+    scoreG.textContent = guest;
+}

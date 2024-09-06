@@ -7,7 +7,7 @@ body {
     justify-content: space-around;
     background-color: goldenrod;
     max-width: 500px;
-    margin: auto;
+    margin: 10px auto;
     border-style: solid;
     border-radius: 10px;
 }
@@ -22,7 +22,7 @@ h3 {
 
 #counter-h, #counter-g {
     text-align: center;
-    font-size: 2rem;
+    font-size: 2.5rem;
     border-style: solid;
     border-radius: 5px;
 }
@@ -33,9 +33,20 @@ h3 {
 }
 
 button {
-    border: 2px solid rgb(255, 255, 255);
+    border: 2px solid rgb(0, 0, 0);
     background-color: goldenrod;
-    color: rgb(255, 255, 255);
-    font-size: 1rem;
+    color: rgb(0, 0, 0);
+    font-size: 1.5rem;
     cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: rgb(231, 175, 31);
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#clear-home, #clear-guest {
+    width: 7.4rem;
+    margin-top: 2px;
 }
