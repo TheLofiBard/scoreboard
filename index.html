@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+    <title>Score Board</title>
+</head>
+<body>
+    <div class="container">
+        <div class="cont-home">
+            <h3>Home</h3>
+            <div class="counter">
+                <p id="counter-h">0</p>
+            </div>
+            <div class="btns">
+                <button id="add-home" onclick="addHome(event)">+1</button>
+                <button id="add-home" onclick="addHome(event)">+5</button>
+                <button id="add-home" onclick="addHome()">+10</button>
+            </div>
+        </div>
+        <div class="cont-guest">
+            <h3>Guest</h3>
+            <div class="counter">
+                <p id="counter-g">0</p>
+            </div>
+            <div class="btns">
+                <button onclick="addGuest()">+1</button>
+                <button onclick="addGuest()">+5</button>
+                <button onclick="addGuest()">+10</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
